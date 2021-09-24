@@ -1,0 +1,11 @@
+[project]
+name = "sip009-nft"
+requirements = []
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+depends_on = []
+
+[contracts.stacksies]
+path = "contracts/stacksies.clar"
+depends_on = ["sip009-nft-trait"]
